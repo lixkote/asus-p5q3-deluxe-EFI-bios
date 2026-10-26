@@ -1,6 +1,9 @@
 # ASUS P5Q3 Deluxe – UEFI BIOS Port (Aptio 4)
 
 Port of the beta Aptio 4 UEFI BIOS (rev. 0221) from the **ASUS P5Q Deluxe** (DDR2) to the **ASUS P5Q3 Deluxe** (DDR3).
+<p align="left">
+    <img src="https://raw.githubusercontent.com/lixkote/asus-p5q3-deluxe-EFI-bios/refs/heads/main/splash.png">
+</p>
 
 >  **Use at your own risk.** Flash only if you have a way to recover the BIOS chip (e.g. a programmer or a hot-swappable chip).
 > (There are 2 bios chips on that board, you can only flash this on one of them with a programmer like CH341a, and remove + store the other one somewhere safely as a original backup)
