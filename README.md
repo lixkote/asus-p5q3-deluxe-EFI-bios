@@ -15,10 +15,11 @@ Port of the beta Aptio 4 UEFI BIOS (rev. 0221) from the **ASUS P5Q Deluxe** (DDR
 
 Base: `P5Q-ASUS-DELUXE-EFI-0221.ROM` (P5Q Deluxe beta UEFI from asus's website).
 
+**- Rebranded all references of "P5Q Deluxe" to "P5Q3 Deluxe", even on the bootlogo which i custom designed based on the original P5Q Deluxe/EFI one**
+- SMBIOS reports correct motherboard model
 - Replaced the CSMCore, MemDetect modules with the one from the **MSI P45D3**, so the bios recorgnises DDR3 ram.
 - OCMR_PEI removed so that MSI's bios parts are compatible, plus other EFI modules patched.
 - Removed **ASUS Express Gate** (that crappy limited linux distro that boots before bios), because it is in my opinion completely useless in 2026 and only caused hangs sometimes...
-- POST motherboard model updated to `ASUS P5Q3 DELUXE/EFI` so that it looks legit.
 - Added an option in setup to disable the WiFi module as in the original bios of P5Q3 Deluxe.
 - Restart POST issue fix - rebooting now does a full power-cycle reset:
   - the ACPI reset value is `0x0E` instead of `0x06`;
