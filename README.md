@@ -12,7 +12,7 @@ Port of the beta Aptio 4 UEFI BIOS (rev. 0221) from the **ASUS P5Q Deluxe** (DDR
 - This bios completely eliminated POST issues on high amounts of ram (16gb) for me, fixed stability issues, and greatly improved modern GPU compatibility (Even an RTX3050 boots now)
 - Includes a power-cycle fix which makes the UEFI much more stable and eliminates boot issues that were present on original P5Q Deluxe beta UEFI
 - Xeon CPUs with a 771 conversion are 100% supported and working
-- Overclocking was not tested, because this is a old rare board and i don't want to risk it nor do i need oc...
+- Overclocking works in my experience better than stock bios, much more stable and i easily got 3.8GHz on my xeon E5450
 
 ## Changes
 
